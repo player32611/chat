@@ -1,0 +1,90 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/conversation/list",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/friend/list",
+			"style": {
+				"navigationBarTitleText": "好友"
+			}
+		},
+		{
+			"path": "pages/user/profile",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/friend/requests",
+			"style": {
+				"navigationBarTitleText": "好友申请"
+			}
+		},
+		{
+			"path": "pages/user/search",
+			"style": {
+				"navigationBarTitleText": "搜索用户"
+			}
+		},
+		{
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "聊天"
+			}
+		},
+		{
+			"path": "pages/group/create",
+			"style": {
+				"navigationBarTitleText": "发起群聊"
+			}
+		},
+		{
+			"path": "pages/group/detail",
+			"style": {
+				"navigationBarTitleText": "群聊信息"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#07c160",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/conversation/list",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/friend/list",
+				"text": "好友"
+			},
+			{
+				"pagePath": "pages/user/profile",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "聊天室",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#f5f6f7"
+	}
+}

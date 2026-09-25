@@ -1,0 +1,18 @@
+/* 基础重置 */
+page,
+view,
+text,
+image,
+input,
+button,
+textarea,
+scroll-view {
+	box-sizing: border-box;
+}
+
+page {
+	background-color: $color-bg;
+	color: $color-text;
+	font-size: 28rpx;
+	line-height: 1.5;
+}

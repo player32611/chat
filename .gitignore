@@ -1,0 +1,13 @@
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器 / IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# 日志
+*.log

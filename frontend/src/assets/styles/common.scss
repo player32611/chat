@@ -1,0 +1,27 @@
+/* iconfont 基类（字体文件由用户下载到 public/icon） */
+.iconfont {
+	font-family: 'iconfont' !important;
+	font-size: 32rpx;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* 通用弹性布局 */
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+.flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* 单行文本省略 */
+.ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
